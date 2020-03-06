@@ -156,7 +156,7 @@ public class iceHockey implements IPlayersFinder
             }
         }
 
-        if(size==0||photo.length==0)
+        if(size==0)
         {
             System.out.println("photo is empty");
             return null;
